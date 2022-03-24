@@ -12,15 +12,79 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="6"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal"
         android:id="@+id/ll1" >
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="빨 | 주 | 노 | 초 | 파 | 남 | 보 | 핑 | 흰 | 검"
-        android:gravity="center"
-        android:textSize="20dp" />
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/red"
+            android:onClick="onClick"
+            android:layout_marginRight="10dp"
+            android:background="#ff0000"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/orange"
+            android:onClick="onClick"
+            android:layout_marginRight="10dp"
+            android:background="#FFAB40"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/yellow"
+            android:onClick="onClick"
+            android:layout_marginRight="10dp"
+            android:background="#FFFF00"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/green"
+            android:onClick="onClick"
+            android:layout_marginRight="10dp"
+            android:background="#64DD17"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/blue"
+            android:onClick="onClick"
+            android:layout_marginRight="10dp"
+            android:background="#0091EA"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/indigo"
+            android:onClick="onClick"
+            android:layout_marginRight="10dp"
+            android:background="#304FFE"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/purple"
+            android:onClick="onClick"
+            android:layout_marginRight="10dp"
+            android:background="#AA00FF"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/pink"
+            android:onClick="onClick"
+            android:layout_marginRight="10dp"
+            android:background="#FF00BF"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/white"
+            android:onClick="onClick"
+            android:layout_marginRight="10dp"
+            android:background="#FBF8F8"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/black"
+            android:onClick="onClick"
+            android:background="#000000"/>
 
     </LinearLayout>
 
@@ -47,6 +111,7 @@
         android:layout_height="match_parent"
         android:layout_weight="6"
         android:orientation="horizontal"
+        android:gravity="center_horizontal|center_vertical"
         android:id="@+id/ll3" >
 
         <Button
